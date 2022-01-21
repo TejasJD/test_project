@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "TejasJD <ddusane78@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
