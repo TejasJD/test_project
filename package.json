@@ -7,5 +7,12 @@
   "devDependencies": {
     "concurrently": "^7.0.0",
     "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start_server": "cd backend && yarn start",
+    "start_server_dev": "cd backend && yarn dev",
+    "start_client": "cd frontend && yarn start",
+    "start_dev": "concurrently \"yarn start_server_dev\" \"yarn start_client\"",
+    "start": "concurrently \"yarn start_server\" \"yarn start_client\""
   }
 }
