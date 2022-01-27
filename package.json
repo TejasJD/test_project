@@ -14,5 +14,6 @@
     "start_client": "cd frontend && yarn start",
     "start_dev": "concurrently \"yarn start_server_dev\" \"yarn start_client\"",
     "start": "concurrently \"yarn start_server\" \"yarn start_client\""
-  }
+  },
+  "dependencies": {}
 }
