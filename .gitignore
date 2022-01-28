@@ -22,6 +22,8 @@
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
 
+/backend/.env
+
 # files
 /yarn.lock
 /frontend/yarn.lock
