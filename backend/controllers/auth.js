@@ -1,11 +1,11 @@
-const login = (req, res) => {
+const login = (req, res, next) => {
     res.json({
         ok: true,
         message: "at login page!"
     });
 };
 
-const register = (req, res) => {
+const register = (req, res, next) => {
     res.json({
         ok: true,
         message: "at register page!"
